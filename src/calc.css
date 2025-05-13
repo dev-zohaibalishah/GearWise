@@ -1,0 +1,102 @@
+.calculator {
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 6px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .machine-entry {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .machine-entry input, .machine-entry select {
+    flex: 1;
+  }
+  
+  .machine-entry button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-button, .calculate-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .output {
+    margin-top: 30px;
+  }
+  
+  .output-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  .output-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .output-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .output-table .highlight {
+    background-color: #e7f3ff;
+    font-weight: bold;
+  }
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .calculate-button,
+  .reset-button {
+    padding: 8px 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .calculate-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .reset-button {
+    background-color: #6c757d;
+    color: white;
+    margin-top: 10px;
+  }
+  
